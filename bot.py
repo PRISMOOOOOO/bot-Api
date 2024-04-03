@@ -2,7 +2,7 @@ from data import get_data_as_API
 import telebot
 from telebot.types import Message
 
-bot = telebot.TeleBot("7150015201:AAGrbxtIkeST2-DMVivnVwhqm_pFHQQlWbY")
+bot = telebot.TeleBot("Token")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message: Message):
