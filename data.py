@@ -45,16 +45,7 @@ def get_data_as_API(city_name):
 
     except Exception as e:
         print(e)
-    return [{
-            "id": id,
-            "temperatrue": temperatrue,
-            "humidity": humidity,
-            "weather": weather,
-            "wind_speed": wind_speed,
-            "location": location,
-            "create":now.strftime("%H:%M:%S"),
-            
-                }]
+    
 
 
 if __name__=="__main__":
